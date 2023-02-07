@@ -1,4 +1,4 @@
 "use strict"; //Это включение строго режима, чтобы браузер включал все современные возможности языка.
 
-let myname = "Виталий", surname = "Шагин";
-alert(myname + ' ' + surname);
+let str = 'My name is LeoomWi!';
+alert(str.length);
