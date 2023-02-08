@@ -1,9 +1,10 @@
 "use strict"; //Это включение строго режима, чтобы браузер включал все современные возможности языка.
 
-let a = 5, b = 65;
-alert(String(a) + String(b));
+let a = 'abcde';
+alert(a[0] + ' ' + a[2] + ' ' + a[4]);
 
-alert(String(a).length);
+let b = a[4] + a[3] + a[2] + a[1] + a[0];
+alert(b);
 
-a = String(a).length, b = String(b).length;
-alert(a + b);
+let c = 3;
+alert(a[c]);
