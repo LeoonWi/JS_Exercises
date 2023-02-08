@@ -1,15 +1,16 @@
 "use strict"; //Это включение строго режима, чтобы браузер включал все современные возможности языка.
 
-let str1 = 'xxx';
-let str2 = 'yyy';
-let txt  = `aaa ${str1} bbb ${str2} ccc`;
-alert(txt);
+let a;
+alert(a);
 
-txt = `a \nb \nc`
-alert(txt);
+a = null;
+alert(a);
 
-txt = `1
-2
-3`;
-alert(txt);
-//2 способа переноса строк
+let b;
+a = true, b = false;
+alert(a);
+alert(b);
+a = 'abc', b = 'def';
+alert(a * b);
+alert(10/0);
+alert(-10/0);
