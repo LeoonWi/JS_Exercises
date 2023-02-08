@@ -1,7 +1,9 @@
 "use strict"; //Это включение строго режима, чтобы браузер включал все современные возможности языка.
 
-let a = '5px', b = '6px';
-alert(parseInt(a) + parseInt(b));
+let a = 5, b = 65;
+alert(String(a) + String(b));
 
-a = '5.5px', b = '6.25px';
-alert(parseFloat(a) + parseFloat(b) + 'px');
+alert(String(a).length);
+
+a = String(a).length, b = String(b).length;
+alert(a + b);
