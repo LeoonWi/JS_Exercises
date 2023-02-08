@@ -1,10 +1,6 @@
 "use strict"; //Это включение строго режима, чтобы браузер включал все современные возможности языка.
 
 let a = 'abcde';
-alert(a[0] + ' ' + a[2] + ' ' + a[4]);
-
-let b = a[4] + a[3] + a[2] + a[1] + a[0];
-alert(b);
-
-let c = 3;
-alert(a[c]);
+alert(a[a.length - 1]);
+alert(a[a.length - 2]);
+alert(a[a.length - 3]);
