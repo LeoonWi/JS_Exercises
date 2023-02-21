@@ -1,7 +1,7 @@
 "use strict"; //Это включение строго режима, чтобы браузер включал все современные возможности языка.
 
-let num = 10;
-num++;
-num++;
-num--;
-alert(num);
+let a = 0.1 * 0.2;
+let b = 0.3 - 0.1;
+
+alert(a.toFixed(2));
+alert(b.toFixed(2));
