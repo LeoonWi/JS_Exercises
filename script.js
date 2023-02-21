@@ -1,24 +1,28 @@
 "use strict"; //Это включение строго режима, чтобы браузер включал все современные возможности языка.
 
-let a = '12345';
-let b = 0;
-for(let i = 0; i < a.length; i++) {
-    b = b + Number(a[i]);
+let text = '12345';
+let res = 0;
+for(let i = 0; i < text.length; i++) {
+    res = res + Number(text[i]);
 }
-alert(b);
+alert(res);
 
-a = String(12345);
-b = 0;
-for(let i = 0; i < a.length; i++) {
-    b = b + Number(a[i]);
+let num = 12345;
+num = String(num);
+res = 0
+for(let i = 0; i < num.length; i++) {
+    res = res + Number(num[i]);
 }
-alert(b);
+alert(res);
 
-b = 1;
-for(let i = 0; i < a.length; i++) {
-    b = b * a[i];
+res = 1
+for(let i = 0; i < num.length; i++) {
+    res = res * num[i];
 }
-alert(b);
+alert(res);
 
-b = a[4] + a[3] + a[2] + a[1] + a[0];
-alert(b);
+let new_num = '';
+for(let i = 4; i >= 0; i--) {
+    new_num += num[i];
+}
+alert(new_num);
