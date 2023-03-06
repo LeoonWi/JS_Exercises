@@ -1,5 +1,12 @@
 "use strict"; //Это включение строго режима, чтобы браузер включал все современные возможности языка.
 
-let arr = ['a', 'b', 'c'];
-document.write('Количество элементов: ' + arr.length + '<br>');
-document.write('Последний элемент: ' + arr[arr.length-1]);
+let arr = [1, 2, 3];
+arr[0] += 3;
+arr[1] += 3;
+arr[2] += 3;
+document.write(arr + '<br>');
+arr = [1, 2, 3];
+arr[0]++;
+++arr[1];
+arr[2]--;
+document.write(arr);
