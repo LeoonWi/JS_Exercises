@@ -1,7 +1,5 @@
 "use strict"; //Это включение строго режима, чтобы браузер включал все современные возможности языка.
 
-let arr = [1, 2, 3, 4, 5];
-document.write('Все элементы массива: ' + arr + '<br>');
-document.write('Сумма массива: ' + (arr[0] + arr[1] + arr[2]) + '<br>');
-arr = ['a', 'b', 'c', 'd'];
-document.write(arr[0] + '+' + arr[1] + '+' + arr[2] + '+' + arr[3]);
+let arr = ['a', 'b', 'c'];
+document.write('Количество элементов: ' + arr.length + '<br>');
+document.write('Последний элемент: ' + arr[arr.length-1]);
